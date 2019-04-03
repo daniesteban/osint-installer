@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Github Dorks
+GenericName=GitHub Dork Search Tool
+Comment=Collection of github dorks and helper tool
+Exec=sh -c "cd /opt/githubdorks && python github-dork.py -h;${SHELL:-bash}"               
+Icon=/opt/githubdorks/icon/githubdorks.png
+Terminal=true
+Categories=X-osint
+StartupNotify=false

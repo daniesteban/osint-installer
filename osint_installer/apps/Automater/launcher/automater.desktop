@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Automater
+GenericName=Automater
+Comment=IP, URL and MD5 OSINT Analysis
+Exec=sh -c "cd /opt/automater && python Automater.py -h;${SHELL:-bash}"               
+Icon=applications-utilities
+Terminal=true
+Categories=X-osint
+StartupNotify=false

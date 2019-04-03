@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Photon
+GenericName=Photon
+Comment=Incredibly fast crawler designed for OSINT
+Exec=su -c sh -c "cd /opt/photon && python photon.py;${SHELL:-bash}"
+Icon=/opt/photon/icon/photon.png
+Terminal=true
+Categories=X-osint
+StartupNotify=false

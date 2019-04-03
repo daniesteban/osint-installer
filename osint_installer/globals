@@ -1,0 +1,3 @@
+INSTALL_PATH=/opt
+MENU_PATH=/usr/share/applications
+LOGFILE=$(mktemp -d)/osint_installer.log

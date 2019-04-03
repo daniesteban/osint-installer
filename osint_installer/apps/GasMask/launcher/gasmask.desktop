@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=GasMask
+GenericName=GasMask
+Comment=All in one Information gathering tool
+Exec=sh -c "cd /opt/gasmask && python gasmask.py;${SHELL:-bash}"               
+Icon=/opt/gasmask/icon/gasmask.png
+Terminal=true
+Categories=X-osint
+StartupNotify=false

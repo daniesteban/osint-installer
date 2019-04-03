@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Snitch
+GenericName=Snitch
+Comment=Automate information gathering process for specified domain
+Exec=sh -c "cd /opt/snitch && python snitch.py;${SHELL:-bash}"
+Icon=applications-utilities
+Terminal=true
+Categories=X-osint
+StartupNotify=false

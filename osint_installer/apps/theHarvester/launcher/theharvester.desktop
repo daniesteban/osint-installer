@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=theHarvester
+GenericName=theHarvester
+Comment=Open source intelligence gathering tool
+Exec=sh -c "cd /opt/theharvester && python3 theHarvester.py -h;${SHELL:-bash}"
+Icon=applications-utilities
+Terminal=true
+Categories=X-osint
+StartupNotify=false

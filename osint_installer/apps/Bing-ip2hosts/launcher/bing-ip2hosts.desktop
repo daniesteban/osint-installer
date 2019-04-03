@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=bing-ip2hosts
+GenericName=bing-ip2hosts
+Comment=Enumerate hostnames indexed by Bing for a IP address
+Exec=sh -c "cd /opt/bing-ip2hosts && bash bing-ip2hosts;${SHELL:-bash}"               
+Icon=/opt/bing-ip2hosts/icon/bing-ip2hosts.png
+Terminal=true
+Categories=X-osint
+StartupNotify=false

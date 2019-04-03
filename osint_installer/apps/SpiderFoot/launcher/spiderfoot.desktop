@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=SpiderFoot
+GenericName=SpiderFoot
+Comment=The most complete OSINT collection and reconnaissance tool
+Exec=sh -c "cd /opt/spiderfoot && su -c ./sf.py;${SHELL:-bash}"
+Icon=/opt/spiderfoot/icon/spiderfoot.png
+Terminal=true
+Categories=X-osint
+StartupNotify=false

@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Orbit
+GenericName=Orbit
+Comment=Draws relationships between crypto wallets
+Exec=sh -c "cd /opt/orbit && su -c 'python3 orbit.py';${SHELL:-bash}"
+Icon=/opt/orbit/icon/orbit.png
+Terminal=true
+Categories=X-osint
+StartupNotify=false

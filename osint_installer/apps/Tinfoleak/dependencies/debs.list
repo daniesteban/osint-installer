@@ -1,0 +1,7 @@
+python-pip
+python-dev
+build-essential
+python2.7-dev
+python-pyexiv2
+python-openssl
+python-qt4

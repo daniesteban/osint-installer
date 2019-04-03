@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=DataSploit
+GenericName=DataSploit
+Comment=OSINT Framework to perform various recon techniques
+Exec=sh -c "cd /opt/datasploit && python datasploit.py;${SHELL:-bash}"               
+Icon=/opt/datasploit/icon/datasploit.png
+Terminal=true
+Categories=X-osint
+StartupNotify=false

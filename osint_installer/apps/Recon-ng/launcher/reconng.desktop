@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Recon-ng
+GenericName=Recon-ng
+Comment=Web Reconnaissance framework
+Exec=sh -c "cd /opt/recon-ng && python recon-ng;${SHELL:-bash}"               
+Icon=/opt/recon-ng/icon/recon-ng.png
+Terminal=true
+Categories=X-osint
+StartupNotify=false

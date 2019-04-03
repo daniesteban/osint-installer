@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Infoga
+GenericName=Infoga
+Comment=Tool gathering email accounts informations
+Exec=sh -c "cd /opt/infoga && python infoga.py -h;${SHELL:-bash}"
+Icon=applications-utilities
+Terminal=true
+Categories=X-osint
+StartupNotify=false

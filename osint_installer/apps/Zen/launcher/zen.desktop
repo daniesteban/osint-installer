@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Zen
+GenericName=Zen
+Comment=Find email addresses of Github users
+Exec=sh -c "cd /opt/zen && python zen.py;${SHELL:-bash}"
+Icon=/opt/zen/icon/zen.png
+Terminal=true
+Categories=X-osint
+StartupNotify=false

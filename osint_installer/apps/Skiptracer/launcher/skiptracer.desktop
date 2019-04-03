@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Skiptracer
+GenericName=Skiptracer
+Comment=Web scraping framework
+Exec=sh -c "cd /opt/skiptracer && python skiptracer.py;${SHELL:-bash}"               
+Icon=/opt/skiptracer/icon/skiptracer.png
+Terminal=true
+Categories=X-osint
+StartupNotify=false

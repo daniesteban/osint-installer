@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Tinfoleak
+GenericName=Tinfoleak
+Comment=Open-source tool for Twitter intelligence analysis
+Exec=sh -c "cd /opt/tinfoleak && python tinfoleak.py;${SHELL:-bash}"               
+Icon=/opt/tinfoleak/icon/tinfoleak.png
+Terminal=true
+Categories=X-osint
+StartupNotify=false

@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Metagoofil
+GenericName=Metagoofil
+Comment=Tool for extracting metadata of public documents
+Exec=sh -c "cd /opt/metagoofil && python metagoofil.py;${SHELL:-bash}"               
+Icon=/opt/metagoofil/icon/metagoofil.png
+Terminal=true
+Categories=X-osint
+StartupNotify=false

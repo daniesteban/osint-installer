@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=SMWYG
+GenericName=SMWYG-Show-Me-What-You-Got
+Comment=Search credentials from BreachCompilation leak
+Exec=sh -c "cd /opt/smwyg && python3 SMWYG.py;${SHELL:-bash}"               
+Icon=/opt/smwyg/icon/smwyg.png
+Terminal=true
+Categories=X-osint
+StartupNotify=false

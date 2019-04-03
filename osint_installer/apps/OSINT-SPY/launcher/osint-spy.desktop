@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=OSINT-Spy
+GenericName=OSINT-Spy
+Comment=OSINT scan on email, domain, ip_address & organization
+Exec=sh -c "cd /opt/osint-spy && python osint-spy.py;${SHELL:-bash}"               
+Icon=applications-utilities
+Terminal=true
+Categories=X-osint
+StartupNotify=false
